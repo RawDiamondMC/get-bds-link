@@ -17,3 +17,10 @@ dependencies {
 application {
     mainClass = 'io.github.rawdiamondmc.get_bds.Main'
 }
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'io.github.rawdiamondmc.get_bds.Main',
+        )
+    }
+}
