@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'io.github.rawdiamondmc'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.jsoup:jsoup:1.17.2")
+}
+
+application {
+    mainClass = 'io.github.rawdiamondmc.get_bds.Main'
+}
